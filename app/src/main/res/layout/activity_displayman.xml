@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maciej.chcezdazyc.DisplayCopyActivity"
+    android:background="@drawable/bcg">
+
+    <TextView
+        android:id="@+id/wyswietlam"
+        android:text="@string/oczekiwanie"
+        android:textColor="@color/colorblack"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        style="@style/wrap" />
+
+    <TextView
+        android:id="@+id/tempo"
+        android:textColor="@color/colorblack"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/wyswietlam"
+        style="@style/wrap"/>
+
+    <TextView
+        android:id="@+id/rozdzielajaca"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/przerwa"
+        android:layout_below="@id/tempo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/wyswietlamG"
+        style="@style/wrap"
+        android:layout_below="@id/rozdzielajaca"
+        android:text="@string/google_warunek"
+        android:textColor="@color/colorblack"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tempoG"
+        android:textColor="@color/colorblack"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/wyswietlamG"
+        style="@style/wrap"/>
+
+    <TextView
+        android:id="@+id/informacja"
+        style="@style/wrap"
+        android:text="@string/google_gwiazdka"
+        android:layout_alignParentBottom="true"
+        android:textSize="12sp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/informacja"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3303420116746766/4731154291">
+
+    </com.google.android.gms.ads.AdView>
+
+<!--
+    <TextView
+        style="@style/wrap"
+        android:id="@+id/testowo"
+        android:text="Dane wystapujace tylko podczas testow:"
+        android:layout_below="@id/tempoG"
+        android:layout_centerHorizontal="true"/>
+-->
+</RelativeLayout>
+</ScrollView>

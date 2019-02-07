@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chce zdazyc</string>
+    <string name="podaj_dane">Podaj dane :)</string>
+    <string name="podaj_adres">Podaj adres :)</string>
+    <string name="adres">Ulica,miasto,państwo</string>
+    <string name="planowana_godzina">Planowana godzina dotarcia</string>
+    <string name="kiedy">np 6.09</string>
+    <string name="kiedyDwaCztery">np. 21.45</string>
+    <string name="jak_szybko_musze_isc">Jak szybko muszę iść?</string>
+
+    <string name="oczekiwanie">Poczekaj chwilę. Trwa liczenie :) ... \n Jeśli czekasz długo-wyjdź na zewnątrz,aby poprawić sygnał GPS</string>
+    <string name="zla_godzina">Źle podales godzine</string>
+
+    <string name="display_up">W linii prostej  jestes od  celu %1$.2f %6$s  \n Aktualna predkosc %2$.2f %6$s/h\n Powinienes przemieszczac sie z predkoscia co najmniej %3$.2f %6$s/h\n  Z aktualną prędkością będziesz za %4$.1f minut/y \n Z srednią prędkością będziesz za %5$.1f minut/y</string>
+    <string name="display_down">Jeśli idziesz najkrótszą trasą według Google to jesteś od celu  %1$.2f %4$s \n Powinieneś się poruszać ze stałą prędkością  %2$.2f %4$s/h\n Z aktualną prędkością będziesz za %3$.1f minut/y</string>
+
+    <string name="display_upUS">W linii prostej  jestes od  celu %1$.0f yardów czyli %2$.0f stóp  \n Aktualna predkosc %3$.4f mili/h\n Powinienes przemieszczac sie z predkoscia co najmniej %4$.4f mili/h \n  Z aktualną prędkością będziesz za %5$.1f minut/y \n Z srednią prędkością będziesz za %6$.1f minut/y</string>
+    <string name="display_downUS">Jeśli idziesz najkrótszą trasą według Google to jesteś od celu  %1$.0f yardów czyli %2$.0f ft \n Powinieneś się poruszać ze stałą prędkością  %3$.4f mili/h\n Z aktualną prędkością będziesz za %4$.1f minut/y</string>
+
+    <string name="za_wolno">Powinieneś iść szybciej :)</string>
+    <string name="dobre_tempo">Masz dobre tempo :)</string>
+
+
+
+    <string name="google_warunek">Jeśli użytkownicy nie przekroczyli darmowego limitu jaki Google pozwala wykorzystać na dzień* to (jeśli masz włączony dostęp do internetu) policzę najkrótkszą drogę wg.Google :)..</string>
+    <string name="google_gwiazdka">* bez weryfikacji Google pozwala mi domyślnie na 1 zapytanie na dzień</string>
+
+
+    <string name="podaj_godzine">Podaj godzinę</string>
+    <string name="adres_niepoprawny">Adres niepoprawny</string>
+
+    <string name="internet">Włącz internet na chwilę</string>
+
+    <string name="internet_connected">Sieć włączona.\nPoczekaj mniej niż minutę i kliknij ;)\n(Jeśli podałeś poprawny adres)</string>
+    
+</resources>
